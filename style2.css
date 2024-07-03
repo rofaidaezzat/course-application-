@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navlink{
+        display: flex;
+       margin-left: 70%;
+}
+ ul{
+        display: flex;
+        gap: 3rem;
+        list-style: none;
+ }
+ a{
+        text-decoration: none;
+        font-size: 13px;
+      color: black;
+}
+ .navlink ul li a:hover{
+    color: blue;
+}
+.sub-header{
+    width: 100%;
+    height: 350px;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(./uni.jpeg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+    padding: 23px;
+    padding-top : 130px 
+}
+
+.about-us{
+    width: 80%;
+    margin: auto;
+    padding: 80px;
+    padding-bottom: 50px;
+}
+.about-col{
+    flex-basis: 48%;
+    padding: 30px 2px;
+
+}
+.about-col img{
+    width: 100%;
+    
+
+}
+.about-col p{
+    padding:15px 0 25px ;
+}
+
+.explore-btn {
+    border: 1px solid #f44336;
+    background: transparent;
+}
+
+.explore-btn:hover{
+    background: #f44336;
+    color: #fff;
+}
